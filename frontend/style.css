@@ -1,0 +1,408 @@
+.nf-form-fields-required {
+	display: none;
+}
+
+.nf-form-content .listselect-wrap .nf-field-element div, .nf-form-content .ninja-forms-field {
+	padding: none;
+}
+
+#site-navigation-wrap .dropdown-menu>li>a.wcmenucart{
+ display: none!important;
+}
+
+@media (max-width: 768px){
+li.nav-cart.responsive-nav-cart{
+    display: none; 
+}
+}
+
+.show-password-input{
+	background-color:transparent !important;
+	top: .5em !important;
+}
+
+.show-password-input:hover{
+	color: #000000 !important;
+	background-color:transparent !important;
+}
+
+input[type="checkbox"]:checked{
+		color: black !important;
+		background-color: black !important;
+}
+
+.woocommerce-Address-title a{
+	margin:-40px !important;
+}
+
+.woocommerce-LostPassword{
+	color: #5d1973 !important;
+}
+
+.woocommerce-orders-table__cell-order-number a:hover{
+	color: #5d1973 !important;
+}
+
+
+
+/*Alteraçao da cor da "bolinha" quando selecionado a forma de pagamento*/
+ul.payment_methods .wc_payment_method input[type="radio"]:checked + label::before {
+    color: #5d1973 !important;
+}
+
+/*Cor do link para termos de condições*/
+.woocommerce-terms-and-conditions-checkbox-text a:hover{
+	color: #5d1973;
+}
+
+/*cor do botão "Confirmar e sair" - Logout Minha conta*/
+.woocommerce-message a{
+	background-color: #5d1973 !important;
+}
+.woocommerce-message a:hover{
+	background-color: #DF3E50 !important;
+}
+
+.user-info a{
+	color: #5d1973 !important;
+}
+.user-info a:hover{
+	color: #DF3E50 !important;
+}
+
+.woocommerce-MyAccount-content a,p{
+	font-size: 16px !important;
+	
+}
+
+.woocommerce-MyAccount-content a:hover{
+	color: #000000;
+}
+
+.woocommerce-LostPassword a:hover{
+	color: #5d1973 !important;
+}
+
+.woocommerce-info p{
+	font-size: 13px !important;
+	color: #5d1973 !important;
+}
+
+.woocommerce-orders-table__cell-order-actions .woocommerce-order-details a{
+	color: #FFFFFF !important;
+}
+
+.woocommerce-form-coupon-toggle a{
+	color: #5d1973 !important;
+}
+
+.remove-gifted-user{
+	color: #FFFFFF !important;
+}
+
+.remove-gifted-user:hover{
+	background-color: RED !important;
+}
+
+/*visual do campo de escolha presente ou próprio*/
+.gift-selection-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.gift-question {
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.gift-selection-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.gift-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    align-items: center;
+}
+
+.gift-options input[type="radio"] {
+    display: none;
+}
+
+.gift-options label {
+    padding: 10px 15px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: #fff;
+    text-align: center;
+}
+
+.gift-options input[type="radio"]:checked + label {
+    border-color: #5D1973;
+    background: #f0f8ff;
+    font-weight: bold;
+}
+
+.gift-email-field {
+    width: 50%;
+    display: none;
+}
+
+.woocommerce-error a{
+	background-color: #5D1973 !important;
+}
+
+/* Modal de presenteado */
+#modal-presenteado {
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999;
+    width: 90%;
+    max-width: 600px;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+#modal-presenteado h4 {
+    margin-top: 0;
+    color: #5d1973;
+    font-size: 20px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+#modal-presenteado form p {
+    margin-bottom: 15px;
+}
+
+#modal-presenteado input[type="text"],
+#modal-presenteado input[type="email"],
+#modal-presenteado textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#modal-presenteado textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+#modal-presenteado button {
+    background-color: #5d1973;
+    color: #fff;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+#modal-presenteado button:hover {
+    background-color: #3b0e4f;
+}
+
+#abrir-modal-presenteado {
+    background-color: #5d1973;
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+#abrir-modal-presenteado:hover {
+    background-color: #3b0e4f;
+}
+
+/* Container de cada bloco de escolha */
+.gift-choice-block {
+    background-color: #fdfdfd;
+    border: 2px solid #eee;
+    border-radius: 8px;
+	  margin-top: 20px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.04);
+	  clear: both;
+}
+
+/* Título da unidade */
+.gift-choice-block p strong {
+    font-size: 16px;
+    color: #5D1973;
+}
+
+/* Estilo dos radios */
+.gift-choice-block label {
+    display: inline-block;
+    margin: 8px 15px 10px 0;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.gift-choice-block input[type="radio"] {
+    margin-right: 8px;
+}
+
+/* Campo de e-mail quando exibido */
+.gift-choice-block .form-row {
+    margin-top: 10px;
+}
+
+/* Campo de e-mail visível */
+.gift-choice-block input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s;
+}
+
+.gift-choice-block input[type="email"]:focus {
+    border-color: #5D1973;
+}
+
+/* Responsivo */
+@media (max-width: 600px) {
+    .gift-choice-block {
+        padding: 15px 10px;
+    }
+}
+/*Caixa de informação da unidade no checkout*/
+.gift-header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.gift-tooltip-icon {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 16px;
+    color: #5d1973;
+    position: relative;
+}
+
+.gift-tooltip-icon::after {
+    content: attr(aria-label);
+    position: absolute;
+    top: -100%;
+    right: 0;
+    transform: translateY(-10px);
+    background: #1a1a1a;
+    color: #fff;
+    padding: 10px 12px;
+    border-radius: 6px;
+    width: 240px;
+    font-size: 13px;
+    line-height: 1.4;
+    white-space: normal;
+    text-align: left;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+    z-index: 9999;
+}
+
+.gift-tooltip-icon::before {
+    content: "";
+    position: absolute;
+    top: -12px;
+    right: 10px;
+    border: 6px solid transparent;
+    border-bottom-color: #1a1a1a;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.gift-tooltip-icon:hover::after,
+.gift-tooltip-icon:hover::before,
+.gift-tooltip-icon:focus::after,
+.gift-tooltip-icon:focus::before {
+    opacity: 1;
+}
+
+/* Responsivo: ajusta a largura da bolha em telas pequenas */
+@media screen and (max-width: 600px) {
+    .gift-tooltip-icon::after {
+        width: 90vw;
+        max-width: 90vw;
+        left: 50%;
+        right: auto;
+        transform: translateX(-50%) translateY(-10px);
+        white-space: normal;
+        word-wrap: break-word;
+    }
+
+    .gift-tooltip-icon::before {
+        left: 50%;
+        right: auto;
+        transform: translateX(-50%);
+    }
+}
+
+/*Personalização da aba presenteado*/
+
+.woocommerce-account .shop_table th,
+.woocommerce-account .shop_table td {
+    vertical-align: top;
+    padding: 12px;
+}
+
+.woocommerce-account .shop_table td button {
+    margin-bottom: 6px;
+    background-color: #5d1973;
+    color: #fff;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.woocommerce-account .shop_table td button:hover {
+    background-color: #4a105d;
+}
+
+.woocommerce-account .shop_table ul {
+    margin: 0;
+    padding-left: 1.2em;
+}
+
+/* Estiliza os botões de ação na coluna correta da tabela de presenteados */
+.woocommerce-account .shop_table td.gifted-actions {
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.woocommerce-account .shop_table td.gifted-actions button {
+    display: block;
+    width: 100%;
+    margin: 5px 0;
+}
+
+
+

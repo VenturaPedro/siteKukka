@@ -1,0 +1,2 @@
+<?php
+// Funções avulsas reutilizáveis
