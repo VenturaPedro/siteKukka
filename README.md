@@ -37,6 +37,5 @@ Este repositório serve para:
 
 Este projeto está licenciado sob a Licença MIT. Veja mais detalhes no arquivo `LICENSE`.
 
----
 
 Desenvolvido e mantido por [Kukka EdTech](https://kukka.com.br), com foco em transformar a educação financeira desde a infância.
